@@ -1,0 +1,54 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "ConselhosDoDiaIntent",
+          "samples": [
+            "me dê um conselho",
+            "me dê um conselho do dia",
+            "me dê um conselho para hoje",
+            "me dê um conselho para o dia",
+            "me dê um conselho para a vida",
+            "me dê um conselho para o dia de hoje",
+            "me dê um conselho para o dia de amanhã",
+            "me dê um conselho para o dia de ontem",
+            "quero um conselho",
+            "quero um conselho do dia",
+            "quero um conselho para hoje",
+            "preciso de um conselho",
+            "preciso de um conselho do dia",
+            "preciso de ajuda",
+            "o que você me diz",
+            "o que você me diz hoje",
+            "o que você acha"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "conselho",
+          "samples": []
+        }
+      ],
+      "types": [],
+      "invocationName": "conselhos do dia"
+    }
+  }
+}
