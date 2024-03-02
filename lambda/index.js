@@ -21,11 +21,11 @@ const HelloWorldIntentHandler = {
             && Alexa.getIntentName(handlerInput.requestEnvelope) === 'HelloWorldIntent';
     },
     handle(handlerInput) {
-        const speakOutput = 'Conselho do dia: "A vida é como andar de bicicleta. Para ter equilíbrio, você tem que se manter em movimento." - Albert Einstein. Você gostaria de ouvir outro conselho?';
+        const speakOutput = 'Olá mundo';
 
         return handlerInput.responseBuilder
             .speak(speakOutput)
-            //.reprompt('add a reprompt if you want to keep the session open for the user to respond')
+            .reprompt(speakOutput)
             .getResponse();
     }
 };
